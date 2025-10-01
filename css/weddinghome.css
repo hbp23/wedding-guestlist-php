@@ -1,0 +1,109 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #eef;
+    cursor: pointer;
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    color: black;
+    letter-spacing: 0.01em;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.page-box {
+    background-color: #eee;
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 50px 30px;
+    width: fit-content;
+    min-width: 500px;
+}
+
+.box-heading {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    color: black;
+    letter-spacing: 0.01em;
+}
+
+.username {
+    color: #332bff;
+}
+
+.search-box {
+    text-align: right;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.button {
+    font-size: 16pt;
+    padding: 12px 30px;
+    margin: 30px 15px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.left-button {
+    background-color: #332bff;
+}
+
+
+.middle-button {
+    background-color: #5d6d8d;
+}
+
+.right-button {
+    background-color: red;
+}
+
+.guest-button {
+    padding: 2px 4px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.my-table {
+    border: 1px solid black;
+    margin: 0 auto;
+}
